@@ -1,0 +1,16 @@
+module RCA(a,b,c,sum,carry);
+input [3:0]a;
+input [3:0]b;
+input c;
+output [3:0]sum;
+output carry;
+wire l,m,n;
+fa f1(a[0],b[0],c,sum[0],l);
+fa f2(a[1],b[1],l,sum[1],m);
+fa f3(a[2],b[2],m,sum[2],n);
+fa f4(a[3],b[3],n,sum[3],carry);
+endmodule
+module fa(input a,b,c,output sum,carry);
+assign sum=a^b^c;
+assign carry=(a^b)&c|(a&b);
+endmodule
