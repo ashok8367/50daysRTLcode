@@ -1,0 +1,15 @@
+module RCA_tb();
+reg a,b,c;
+wire diff,borrow;
+fs dut(a,b,c,diff,borrow);
+initial begin
+a=1'b0;b=1'b0;c=1'b0;
+#100 a=1'b0;b=1'b0;c=1'b1;
+#100 a=1'b0;b=1'b1;c=1'b0;
+#100 a=1'b0;b=1'b1;c=1'b1;
+#100 a=1'b1;b=1'b0;c=1'b0;
+#100 a=1'b1;b=1'b0;c=1'b1;
+#100 a=1'b1;b=1'b1;c=1'b0;
+#100 a=1'b1;b=1'b1;c=1'b1;
+end
+endmodule
