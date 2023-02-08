@@ -1,0 +1,9 @@
+module fs(input a,b,c,output diff,borrow);
+ha h1(a,b,di,bo);
+ha h2(di,c,diff,boo);
+or o1(borrow,boo,bo);
+endmodule
+module ha(input a,b,output diff,borrow);
+assign diff=a^b;
+assign borrow=~a&b;
+endmodule
