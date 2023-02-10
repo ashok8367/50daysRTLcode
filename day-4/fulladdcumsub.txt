@@ -1,0 +1,4 @@
+module fas(input en,a,b,c,output o1,o2);
+assign o1=a^b^c;
+assign o2=en?((a^b)&c|a&b):(~(a^b)&c|~a&b);
+endmodule
