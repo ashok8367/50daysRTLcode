@@ -1,0 +1,22 @@
+module RCA_tb();
+reg en,a,b,c;
+wire o1,o2;
+fas dut(en,a,b,c,o1,o2);
+initial begin
+en=1'b0;a=1'b0;b=1'b0;c=1'b0;
+#50 en=1'b0;a=1'b0;b=1'b0;c=1'b1;
+#50 en=1'b0;a=1'b0;b=1'b1;c=1'b0;
+#50 en=1'b0;a=1'b0;b=1'b1;c=1'b1;
+#50 en=1'b0;a=1'b1;b=1'b0;c=1'b0;
+#50 en=1'b0;a=1'b1;b=1'b0;c=1'b1;
+#50 en=1'b0;a=1'b1;b=1'b1;c=1'b0;
+#50 en=1'b0;a=1'b1;b=1'b1;c=1'b1;
+#50 en=1'b1;a=1'b0;b=1'b0;c=1'b1;
+#50 en=1'b1;a=1'b0;b=1'b1;c=1'b0;
+#50 en=1'b1;a=1'b0;b=1'b1;c=1'b1;
+#50 en=1'b1;a=1'b1;b=1'b0;c=1'b0;
+#50 en=1'b1;a=1'b1;b=1'b0;c=1'b1;
+#50 en=1'b1;a=1'b1;b=1'b1;c=1'b0;
+#50 en=1'b1;a=1'b1;b=1'b1;c=1'b1;
+end
+endmodule
