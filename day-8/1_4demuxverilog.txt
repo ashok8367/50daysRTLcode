@@ -1,0 +1,12 @@
+
+module RCA_tb();
+reg a,s1,s0;
+wire [3:0]y;
+demux dut(a,s1,s0,y);
+initial begin
+s1=1'b0;s0=1'b0;a=1'b0;
+#50 s1=1'b0;s0=1'b1;a=1'b1;
+#50 s1=1'b1;s0=1'b0;a=1'b0;
+#50 s1=1'b1;s0=1'b1;a=1'b1;
+end
+endmodule
