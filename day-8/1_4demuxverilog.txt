@@ -1,12 +1,10 @@
 
-module RCA_tb();
-reg a,s1,s0;
-wire [3:0]y;
-demux dut(a,s1,s0,y);
-initial begin
-s1=1'b0;s0=1'b0;a=1'b0;
-#50 s1=1'b0;s0=1'b1;a=1'b1;
-#50 s1=1'b1;s0=1'b0;a=1'b0;
-#50 s1=1'b1;s0=1'b1;a=1'b1;
-end
+module demux(input a,s1,s0,output reg[3:0]y);
+always@(*)
+case({s1,s0})
+2'b00:y={3'b000,a};
+2'b01:y={2'b00,a,1'b0};
+2'b10:y={1'b0,a,2'b00};
+2'b11:y={a,3'b000};
+endcase
 endmodule
