@@ -1,0 +1,10 @@
+module RCA_tb();
+reg [3:0]a,b;
+wire g,e,l;
+comp4 dut(a,b,g,e,l);
+initial begin
+a=4'b0000;b=4'b0000;
+#100 a=4'b0001;b=4'b0000;
+#100 a=4'b0000;b=4'b0001;
+end
+endmodule
