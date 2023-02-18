@@ -21,7 +21,7 @@ Day 7: 16:1 mux
 
 Day 8: 1:4 demux
 
-Day 9: 
+Day 9: 4 bit comparator
 
 Day 10: N-bit Comparator
 
