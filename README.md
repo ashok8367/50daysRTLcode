@@ -7,9 +7,9 @@ Here is the list of Day wise RTL Codes:
 
 Day 1 : Full Adder Using Half Adder
 
-Day 2 : Johnson Counter
+Day 2 : Ripple Carry Adder
 
-Day 3: Ring Counter
+Day 3: Full Subtractor Using Half Subtractor
 
 Day 4: 5 Input Majority Circuit
 
