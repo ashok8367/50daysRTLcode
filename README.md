@@ -19,7 +19,7 @@ Day 6: 8:1 mux
 
 Day 7: 16:1 mux
 
-Day 8: 
+Day 8: 1:4 demux
 
 Day 9: 
 
