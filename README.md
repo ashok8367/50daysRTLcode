@@ -11,15 +11,15 @@ Day 2 : Ripple Carry Adder
 
 Day 3: Full Subtractor Using Half Subtractor
 
-Day 4: 5 Input Majority Circuit
+Day 4: 5 Full Adder cum Full subtractor
 
-Day 5: Parity Generator
+Day 5: 4:1 mux
 
-Day 6: Binary to One Hot Encoder
+Day 6: 8:1 mux
 
-Day 7: 4-bit BCD Synchronous Counter
+Day 7: 16:1 mux
 
-Day 8: 4-bit Carry LookAhead Adder
+Day 8: 
 
 Day 9: 
 
