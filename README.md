@@ -26,3 +26,5 @@ Day 9: 4 bit comparator
 Day 10: N-bit Comparator
 
 Day 11: Priority Encoder
+
+Day 12: Carry Select Adder
