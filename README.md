@@ -28,3 +28,5 @@ Day 10: N-bit Comparator
 Day 11: Priority Encoder
 
 Day 12: Carry Select Adder
+
+Day 12: Carry Look Ahead Adder
