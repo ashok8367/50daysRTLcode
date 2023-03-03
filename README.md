@@ -29,4 +29,6 @@ Day 11: Priority Encoder
 
 Day 12: Carry Select Adder
 
-Day 12: Carry Look Ahead Adder
+Day 13: Carry Look Ahead Adder
+
+Day 14: BCD to 7segment
