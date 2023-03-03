@@ -1,0 +1,18 @@
+module bcd(input [3:0]a, output reg[7:1]y);
+always@(*)
+begin 
+case(a)
+4'b0000:begin y=7'b1110111;end
+4'b0001:begin y=7'b0010011;end
+4'b0010:begin y=7'b1011101;end
+4'b0011:begin y=7'b1011011;end
+4'b0100:begin y=7'b0111010;end
+4'b0101:begin y=7'b1101011;end
+4'b0110:begin y=7'b1101111;end
+4'b0111:begin y=7'b1010010;end
+4'b1000:begin y=7'b1111111;end
+4'b1001:begin y=7'b1111011;end
+default:begin y=7'bxxxxxxx;end
+endcase
+end
+endmodule
