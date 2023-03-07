@@ -39,4 +39,4 @@ Day 16: 4-Bit Multiplier
 
 Day 17: Parity generator
 
-Day 18:8-Bit ALU 
+Day 18: 8-Bit ALU 
