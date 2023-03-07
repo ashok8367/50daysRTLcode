@@ -38,3 +38,5 @@ Day 15: 8-Bit Adder & Subtractor
 Day 16: 4-Bit Multiplier
 
 Day 17: Parity generator
+
+Day 18:8-Bit ALU 
