@@ -41,7 +41,7 @@ Day 17: Parity generator
 
 Day 18: 8-Bit ALU 
 
-Day 19: JK-flip_flop
+Day 19: Master-Slave JK-flip_flop
 
 Day 20: D-flip_flop
 
