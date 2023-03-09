@@ -43,3 +43,5 @@ Day 18: 8-Bit ALU
 
 Day 19: JK-flip_flop
 
+Day 20: D-flip_flop
+
