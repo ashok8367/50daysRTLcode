@@ -45,3 +45,5 @@ Day 19: Master-Slave JK-flip_flop
 
 Day 20: D-flip_flop
 
+Day 21: Johnson Counter
+
