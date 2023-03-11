@@ -47,3 +47,5 @@ Day 20: D-flip_flop
 
 Day 21: Johnson Counter
 
+Day 22: 4-bit_asynchronous_down counter
+
