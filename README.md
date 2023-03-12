@@ -49,3 +49,6 @@ Day 21: Johnson Counter
 
 Day 22: 4-bit_asynchronous_down counter
 
+Day 23: Positive edge detector
+
+
