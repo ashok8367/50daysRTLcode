@@ -51,4 +51,7 @@ Day 22: 4-bit_asynchronous_down counter
 
 Day 23: Positive edge detector
 
+Day 24: modN_upordown_counter
+
+
 
