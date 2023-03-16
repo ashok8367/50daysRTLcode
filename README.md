@@ -53,5 +53,7 @@ Day 23: Positive edge detector
 
 Day 24: modN_upordown_counter
 
+Day 25: serial input serial output
 
+Day 26: parallel input serial output
 
