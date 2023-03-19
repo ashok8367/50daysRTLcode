@@ -57,3 +57,5 @@ Day 25: serial input serial output
 
 Day 26: parallel input serial output
 
+Day 27: parallel input parallel output
+
