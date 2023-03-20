@@ -59,3 +59,4 @@ Day 26: parallel input serial output
 
 Day 27: parallel input parallel output
 
+Day 21: Ring Counter
