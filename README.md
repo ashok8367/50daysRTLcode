@@ -62,3 +62,5 @@ Day 27: parallel input parallel output
 Day 28: Ring Counter
 
 Day 29: First in first out
+
+Day 30: Clock Divider
