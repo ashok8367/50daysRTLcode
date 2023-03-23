@@ -64,3 +64,5 @@ Day 28: Ring Counter
 Day 29: First in first out
 
 Day 30: Clock Divider
+
+Day 31:D-latch using 2:1 mux 
