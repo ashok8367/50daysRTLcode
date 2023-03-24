@@ -1,0 +1,21 @@
+module shift_test;
+reg[3:0]i;
+reg clk;
+reg[1:0]r;
+reg[1:0]l;
+wire[3:0]q; 
+
+
+shiftreg uut(.i(i),.clk(clk),.r(r),.l(l),.q(q));
+initial begin
+i=4'b1001;
+clk=0;
+r=1;
+l=0;
+#40 i=4'b1011; r=0; l='d2;     
+#40 i='d10; r=1; l=0; 
+#40 i='hf; r='d3; l=0;     
+end
+
+always #20 clk=~clk;
+endmodule
