@@ -5,9 +5,9 @@ My Name is venna ashok, I mostly use Xilinx vivado  and sometimes Modelsim softw
 
 Here is the list of Day wise RTL Codes:
 
-Day 1 : Full Adder Using Half Adder
+Day 1: Full Adder Using Half Adder
 
-Day 2 : Ripple Carry Adder
+Day 2: Ripple Carry Adder
 
 Day 3: Full Subtractor Using Half Subtractor
 
@@ -65,8 +65,8 @@ Day 29: First in first out
 
 Day 30: Clock Divider
 
-Day 31:D-latch using 2:1 mux 
+Day 31: D-latch using 2:1 mux 
 
-Day 32:Shift Register
+Day 32: Shift Register
 
-Day 33:Clock Buffer
+Day 33: Clock Buffer
