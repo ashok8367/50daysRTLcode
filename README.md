@@ -70,3 +70,5 @@ Day 31: D-latch using 2:1 mux
 Day 32: Shift Register
 
 Day 33: Clock Buffer
+
+Day 34: Universal Shift Register
