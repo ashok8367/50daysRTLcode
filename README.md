@@ -72,3 +72,5 @@ Day 32: Shift Register
 Day 33: Clock Buffer
 
 Day 34: Universal Shift Register
+
+Day 35: Shift Rotate Operations
