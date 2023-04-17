@@ -1,0 +1,61 @@
+`timescale 1ns / 1ps
+
+module adder_mealy(clk,reset,a,b,sum,carry);
+input clk,reset;
+input a,b;
+output reg sum,carry;
+reg ps,ns;
+parameter s0=1'b0,s1=1'b1;
+
+
+//for next state
+
+always@(a,b,ps)
+begin
+case(ps)
+s0:if(a==1 && b==1)
+    ns=s0;
+    else
+    ns=s1;
+s1:if((a!=b)| (a==0) && (b==0))
+    ns=s1;
+    else
+    ns=s0;    
+default ns=s0;
+endcase 
+end
+
+//memory block
+
+always@(posedge clk)
+begin 
+if(reset)
+ps=s0;
+else
+ps=ns;
+end
+
+//output block
+
+always@(a,b,ps)
+begin
+case(ps)
+s0:begin
+carry=1;
+sum=0;
+end
+s1:begin
+carry=0;
+if(a!=b)
+sum=1;
+else
+sum=0;
+end
+default: begin
+sum=0;
+carry=0;
+end
+endcase
+end
+
+endmodule
