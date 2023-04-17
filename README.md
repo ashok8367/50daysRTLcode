@@ -76,3 +76,6 @@ Day 34: Universal Shift Register
 Day 35: Shift Rotate Operations
 
 Day 36: Moore fsm 1010 sequence
+
+Day 37: Half adder using mealy fsm
+
