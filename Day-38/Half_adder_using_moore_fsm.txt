@@ -1,0 +1,78 @@
+`timescale 1ns / 1ps
+   
+   
+
+
+module adder_moore(clk,reset,a,b,sum,carry);
+input clk,reset;
+input a,b;
+output reg sum,carry;
+reg [1:0]ps;
+reg [1:0]ns;
+parameter s0=2'b00,s1=2'b01,s2=2'b10,s3=2'b11;
+
+
+//for next state
+
+always@(a,b,ps)
+begin
+case(ps)
+s0:if(a==1 && b==1)
+    ns=s0;
+    else
+    ns=s1;
+s1:if(a!=b)
+    ns=s2;
+   else if((a==0 && b==0))
+    ns=s3;  
+   else
+   ns=s0;
+s2: if(a!=b)
+    ns=s2;
+    else
+    ns=s1;  
+s3: if((a==0 && b==0))
+    ns=s3;
+    else
+    ns=s1;
+default ns=s0;
+endcase 
+end
+
+//memory block
+
+always@(posedge clk)
+begin 
+if(reset)
+ps=s0;
+else
+ps=ns;
+end
+
+//output block
+
+always@(a,b,ps)
+begin
+case(ps)
+s0:begin
+carry=1;
+sum=0;
+end
+s1:
+carry=0;
+s2:begin
+carry=0;
+sum=1;
+end
+s3:begin
+carry=0;
+sum=0;
+end
+default: begin
+sum=0;
+carry=0;
+end
+endcase
+end
+
+endmodule
