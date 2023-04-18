@@ -79,3 +79,4 @@ Day 36: Moore fsm 1010 sequence
 
 Day 37: Half adder using mealy fsm
 
+Day 38: Half adder using moore fsm
