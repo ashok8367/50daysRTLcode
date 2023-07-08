@@ -1,4 +1,4 @@
-# 50daysRTLcode
+# Welcome to My 50DaysOfRTL!
 WELCOME TO MY 50DAYSOFRTL
 
 My Name is venna ashok, I mostly use Xilinx vivado  and sometimes Modelsim software for the simulation of RTL Codes. And The Synthesis is performed by using Intel Quartus Prime Software.
