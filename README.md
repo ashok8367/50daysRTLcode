@@ -132,7 +132,7 @@ I welcome contributions, suggestions, and feedback on my projects. If you find s
 
 # Connect with Me
 
-I'm excited to share my RTL journey with you! Connect with me on LinkedIn [(https://www.linkedin.com/in/theashokvenna/)] to stay updated with my latest projects, tutorials, and insights into digital design and RTL coding.
+I'm excited to share my RTL journey with you! Connect with me on LinkedIn https://www.linkedin.com/in/theashokvenna/ to stay updated with my latest projects, tutorials, and insights into digital design and RTL coding.
 
 Let's dive into the fascinating world of RTL coding together!
 
