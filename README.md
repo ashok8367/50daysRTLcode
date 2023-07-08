@@ -2,7 +2,7 @@
 WELCOME TO MY 50DAYSOFRTL
 
 👋 Hello there! I'm Venna Ashok, and I'm passionate about digital design and RTL coding. This repository is dedicated to my 50DaysOfRTL challenge, where I'll be sharing my progress and projects related to RTL coding using Xilinx Vivado and ModelSim for simulation.
-
+ 
 
 About Me
 
