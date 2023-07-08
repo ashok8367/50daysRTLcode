@@ -4,7 +4,7 @@ WELCOME TO MY 50DAYSOFRTL
 👋 Hello there! I'm Venna Ashok, and I'm passionate about digital design and RTL coding. This repository is dedicated to my 50DaysOfRTL challenge, where I'll be sharing my progress and projects related to RTL coding using Xilinx Vivado and ModelSim for simulation.
  
 
-About Me
+# About Me
 
 I'm an enthusiastic engineer and a VLSI enthusiast with a strong interest in digital design and hardware description languages (HDLs). As a student, I have gained hands-on experience in RTL coding using Verilog and have worked extensively with Xilinx Vivado.
 
@@ -19,16 +19,23 @@ Join me on this exciting adventure in digital design and RTL coding, as I levera
 #VLSI #DigitalDesign #RTLcoding #XilinxVivado #FPGA #HardwareDesign
 
 
-Repository Contents
+# Repository Contents
 In this repository, you'll find a collection of my basic RTL projects, including:
 
 Multiplexers (Muxes)
+
 Counters (Binary, BCD, Up/Down)
+
 Sequence detectors
+
 Shift registers
+
 Arithmetic logic units (ALUs)
+
 Finite state machines (FSMs)
+
 And more!
+
 Each project includes the RTL code, simulation files, and relevant documentation, allowing you to explore and understand the implementation details.
 
 These projects are great starting points for learning RTL coding concepts and building foundational knowledge in digital design.
@@ -113,17 +120,17 @@ Day 38: Half adder using moore fsm
 
 
 
-Tools and Technologies
+# Tools and Technologies
 
 I primarily use Xilinx Vivado and ModelSim for RTL simulation. Vivado provides a powerful platform for designing, implementing, and debugging FPGA-based digital systems. ModelSim, on the other hand, offers a comprehensive simulation environment for testing and verifying the functionality of my RTL designs.
 
 
 
-Contributions and Feedback
+# Contributions and Feedback
 
 I welcome contributions, suggestions, and feedback on my projects. If you find something interesting or have ideas to enhance my RTL designs, feel free to open an issue or submit a pull request. Let's collaborate and learn together!
 
-Connect with Me
+# Connect with Me
 
 I'm excited to share my RTL journey with you! Connect with me on LinkedIn [(https://www.linkedin.com/in/theashokvenna/)] to stay updated with my latest projects, tutorials, and insights into digital design and RTL coding.
 
