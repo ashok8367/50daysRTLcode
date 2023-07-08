@@ -114,14 +114,17 @@ Day 38: Half adder using moore fsm
 
 
 Tools and Technologies
+
 I primarily use Xilinx Vivado and ModelSim for RTL simulation. Vivado provides a powerful platform for designing, implementing, and debugging FPGA-based digital systems. ModelSim, on the other hand, offers a comprehensive simulation environment for testing and verifying the functionality of my RTL designs.
 
 
 
 Contributions and Feedback
+
 I welcome contributions, suggestions, and feedback on my projects. If you find something interesting or have ideas to enhance my RTL designs, feel free to open an issue or submit a pull request. Let's collaborate and learn together!
 
 Connect with Me
+
 I'm excited to share my RTL journey with you! Connect with me on LinkedIn [(https://www.linkedin.com/in/theashokvenna/)] to stay updated with my latest projects, tutorials, and insights into digital design and RTL coding.
 
 Let's dive into the fascinating world of RTL coding together!
