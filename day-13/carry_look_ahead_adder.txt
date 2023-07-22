@@ -3,6 +3,8 @@ input [3:0] a, b; //define inputs and outputs
 input cin;
 output [3:0] sum;
 output cout;
+wire [0:0] p0, p1, p2, p3, g0, g1, g2, g3; // 1-bit wires
+wire [0:0] c0, c1, c2, c3; // 1-bit wires
 //design the logic for the generate functions
 and (g0, a[0], b[0]),
 (g1, a[1], b[1]),
